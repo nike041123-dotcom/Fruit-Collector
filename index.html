@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🍎Fruit Collector🍎</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <main class="game-card">
+    <header class="game-header">
+      <div>
+        <span class="badge">UKOM Kelas X RPL 2</span>
+        <h1>Fruit Collector</h1>
+      </div>
+      <div class="score-box">
+        <span>Skor</span>
+        <strong id="scoreDisplay">0</strong>
+      </div>
+    </header>
+
+    <canvas id="gameCanvas" width="500" height="400"></canvas>
+
+    <footer class="game-footer">
+      <p>
+        Kontrol: <kbd>&larr;</kbd> Kiri &nbsp;•&nbsp; <kbd>&rarr;</kbd> Kanan
+      </p>
+      <span class="sub-info">Tangkap buah sebanyak mungkin!</span>
+    </footer>
+  </main>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
